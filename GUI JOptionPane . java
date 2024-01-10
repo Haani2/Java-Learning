@@ -1,0 +1,12 @@
+import javax.swing.JOptionPane;//Joptionpane use in gui interface //
+public class Main {
+    public static void main (String[]args){
+        String name = JOptionPane.showInputDialog("Enter your Name ");// Show input dialog shows input box and take input in string
+        JOptionPane.showMessageDialog(null, "Hello "+name);// Here its shows message dialog box
+
+        int age= Integer.parseInt(JOptionPane.showInputDialog("Enter your Age :"));// Integer parseInt Convert input dialog item into integer And then you can do operations in it
+        JOptionPane.showMessageDialog(null, "You are "+age);
+        Double height= Double.parseDouble(JOptionPane.showInputDialog("Enter your Height :"));// Double parseDouble Convert input dialog item into float And then you can Operations in it
+        JOptionPane.showMessageDialog(null, "Your are " +height+" inches tall");
+    }
+}
